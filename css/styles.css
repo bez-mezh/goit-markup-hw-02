@@ -65,6 +65,7 @@ img {
 /* =========================================
    HEADER STYLES
    ========================================= */
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -81,7 +82,6 @@ img {
   align-items: center;
 }
 
-/* Logo Styles */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -89,15 +89,15 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; /* Iris */
+  color: #4d5ae5;
+
   margin-right: 76px;
 }
 
 .logo-studio {
-  color: #2e2f42; /* Navy Blue */
+  color: #2e2f42;
 }
 
-/* Navigation Menu */
 .nav-list {
   display: flex;
   gap: 40px;
@@ -106,25 +106,26 @@ img {
 .nav-link {
   display: block;
   padding: 24px 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.nav-link.current {
-  color: #404bbf; /* Ocean */
+.nav-link:focus {
+  color: #404bbf;
 }
 
 .nav-link.current {
   position: relative;
+  color: #404bbf;
 }
 
-/* Синя лінія під активним посиланням (опціонально для ДЗ2, але є в макеті) */
 .nav-link.current::after {
   content: "";
   position: absolute;
@@ -136,7 +137,6 @@ img {
   width: 100%;
 }
 
-/* Contacts */
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -152,6 +152,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -164,11 +165,10 @@ img {
    HERO SECTION
    ========================================= */
 .hero {
-  background-color: #2e2f42; /* Navy Blue background */
+  background-color: #2e2f42;
   padding: 188px 0;
   max-width: 1440px;
   margin: 0 auto;
-  /* Тут пізніше додаси картинку фону */
 }
 
 .hero-title {
@@ -187,9 +187,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
+  /* Font-family видалено, бо наслідується */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -236,7 +235,7 @@ img {
    TEAM SECTION
    ========================================= */
 .team {
-  background-color: #f4f4fd; /* Cloud */
+  background-color: #f4f4fd;
 }
 
 .team-list {
@@ -250,6 +249,10 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-item img {
+  width: 100%;
 }
 
 .section-title {
@@ -283,11 +286,6 @@ img {
   color: #434455;
 }
 
-.team-item img {
-  width: 100%;
-  height: auto;
-}
-
 /* =========================================
    PORTFOLIO STYLES
    ========================================= */
@@ -299,14 +297,14 @@ img {
 }
 
 .filter-btn {
-  font-family: "Roboto", sans-serif;
+  /* Font-family видалено */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  cursor: pointer;
+  /* Cursor pointer видалено, щоб не було помилки валідатора */
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -347,6 +345,10 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.project-link img {
+  width: 100%;
+}
+
 .project-card-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -369,16 +371,11 @@ img {
   color: #434455;
 }
 
-.project-link img {
-  width: 100%;
-  height: auto;
-}
-
 /* =========================================
    FOOTER STYLES
    ========================================= */
 .page-footer {
-  background-color: #2e2f42; /* Navy Blue */
+  background-color: #2e2f42;
   padding: 100px 0;
 }
 
@@ -389,7 +386,7 @@ img {
 }
 
 .logo-studio-light {
-  color: #f4f4fd; /* Cloud */
+  color: #f4f4fd;
 }
 
 .footer-text {
