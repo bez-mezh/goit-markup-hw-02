@@ -1,5 +1,5 @@
 /* =========================================
-   BASE - ТІЛЬКИ BODY! 6.0
+   BASE - ТІЛЬКИ BODY! 8.0
    ========================================= */
 body {
   font-family: "Roboto", sans-serif;
@@ -101,6 +101,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* =========================================
@@ -135,6 +136,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* =========================================
@@ -153,6 +155,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* =========================================
