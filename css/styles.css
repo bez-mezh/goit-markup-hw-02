@@ -356,7 +356,6 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  margin-right: 0;
 }
 
 .logo-studio-light {
@@ -365,6 +364,7 @@ img {
 
 .footer-text {
   max-width: 264px;
+
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
